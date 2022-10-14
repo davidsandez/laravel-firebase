@@ -10,9 +10,20 @@
             "email": "jerome@gamez.name"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/davidsandez/firebase-php",
+          "no-api": true
+        }
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "kreait/firebase-php": "^6.7",
+        "kreait/firebase-php": "dev-6.x",
         "illuminate/contracts": "^7.0",
         "illuminate/support": "^7.0",
         "symfony/cache": "^5.4 || ^6.1.2"
