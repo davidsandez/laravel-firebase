@@ -23,7 +23,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "kreait/firebase-php": "dev-main",
+        "kreait/firebase-php": "^6.7",
         "illuminate/contracts": "^7.0",
         "illuminate/support": "^7.0",
         "symfony/cache": "^5.4 || ^6.1.2"
